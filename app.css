@@ -1,0 +1,124 @@
+.hide {
+    display:none;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+.up { 
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+}
+.radio { 
+    position: relative;
+    left: 40px;
+    margin-top: 60px;
+    margin-right: 25px;
+    margin-bottom: 7px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#input {
+    width: 384px;
+    height: 40px;
+    border-radius: 5px 5px 5px 5px;
+    border-style: hidden;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    font-family: 'Montserrat', sans-serif;
+
+}
+#submitbtn{
+    width: 100px;
+    height: 40px;
+    border-style: hidden;
+    border-radius: 4px 4px 4px 4px;
+    background-color: rgba(231, 231, 231, 0.904);
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: large;
+    font-family: 'Montserrat', sans-serif;
+}
+
+li{width: 500px;
+    height: 67px;
+background-color: rgba(0, 0, 0, 0.068);
+box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+border-radius: 4px 4px 4px 4px;
+border-style: hidden;
+margin-left: -40px;
+margin-top: 10px;
+display: flex;
+font-family: 'Montserrat', sans-serif;
+}
+
+#json {
+    width: 200px;
+    height: 40px;
+    border-style: hidden;
+    border-radius: 4px 4px 4px 4px;
+    background-color: rgba(231, 231, 231, 0.904);
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    margin-top: 50px;
+    font-size: large;
+}
+#reset{
+    width: 200px;
+    height: 40px;
+    border-style: hidden;
+    border-radius: 4px 4px 4px 4px;
+    background-color: rgba(231, 231, 231, 0.904);
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    margin-left: 100px;
+    font-size: large;
+}
+.textarea textarea {
+    width: 500px;
+    height: 254px;
+    margin-top: -10px;
+}
+
+.flex {
+    width: 32px;
+    height: 19px;
+}
+.link {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color:black
+}
+.icon{
+    display:flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: -30px;
+}
+
+.vision{
+    display:flex;
+    align-items: center;
+    justify-content: right;
+    width: 20%;
+    margin-right: 10px;
+    font-size: 18px;
+}
+.text{
+    display: block;
+    width: 70%;
+    margin-left: 15px;
+    margin-top: -6px;
+}
+.undlink{
+    color: #666;
+    margin-top: -5px;
+}
+.hide {
+    display: none
+}

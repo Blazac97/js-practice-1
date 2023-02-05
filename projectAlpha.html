@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProjectAlpha</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="app.css">
+    <script src="https://use.fontawesome.com/79653affe3.js"></script>
+    <style>
+        li {
+            list-style-type: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="up" id="up">
+        <div class="radio">
+            <input type="radio" id="onChange" name="choise" value="onChange" class="onChange" checked>
+            <label for="onChange">onChange</label>
+            <input type="radio" id="onSubmit" name="choise" value="onSubmit" class="onSubmit">
+            <label for="onSubmit">onSubmit</label>
+        </div>
+        <div class="srch">
+            <input type="text" id="input" name="countrysrch" placeholder="Country">
+            <button id="submitbtn" class="submitbtn">OK</button>
+        </div>
+        <div class="bounce" id="bounce">
+            <ul class="container" id="container">
+            </ul>
+        </div>
+        <div class="donwbutt">
+            <p> <button class="secondstyle" type="button" id="json">Get JSON string </button>
+                <button class="secondstyle" type="button" id="reset">Reset </button>
+            </p>
+        </div>
+        <div class="textarea">
+            <textarea rows="10" cols="45" name="text" class="textArea"></textarea>
+        </div>
+    </div>
+    <script src="classScript.js"></script>
+</body>
+
+</html>
